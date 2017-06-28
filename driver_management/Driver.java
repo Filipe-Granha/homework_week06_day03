@@ -3,10 +3,23 @@ import behaviours.*;
 
 public class Driver {
   String name;
-  Drivable drive;
+  Driveable drive;
 
-  public Drive(String name, Drivable drive){
+  public Driver(String name, Driveable drive){
     this.name = name;
     this.drive = drive;
   }
+
+ public String getName() {
+  return.this.name;
+ }
+
+public Driveable getdrive() {
+  return this.drive;
+}
+
+
+
+
+
 }

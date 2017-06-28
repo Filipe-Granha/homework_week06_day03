@@ -1,7 +1,7 @@
 package driver_management;
 import behaviours.*;
 
-public class DodgemCar implements Drivable {
+public class DodgemCar implements Driveable {
 
   int avgSpeed;
   int seats;
